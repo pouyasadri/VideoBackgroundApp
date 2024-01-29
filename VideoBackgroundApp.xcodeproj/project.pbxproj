@@ -11,6 +11,11 @@
 		BEA950C92B682E7700C8EFC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA950C82B682E7700C8EFC9 /* ContentView.swift */; };
 		BEA950CB2B682E7900C8EFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA950CA2B682E7900C8EFC9 /* Assets.xcassets */; };
 		BEA950CE2B682E7900C8EFC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA950CD2B682E7900C8EFC9 /* Preview Assets.xcassets */; };
+		BEA950D52B682EAE00C8EFC9 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BEA950D42B682EAE00C8EFC9 /* video.mp4 */; };
+		BEA950D82B682EDE00C8EFC9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA950D72B682EDE00C8EFC9 /* Card.swift */; };
+		BEA950DB2B682F5600C8EFC9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA950DA2B682F5600C8EFC9 /* CardView.swift */; };
+		BEA950DD2B68304500C8EFC9 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA950DC2B68304500C8EFC9 /* PlayerView.swift */; };
+		BEA950DF2B68322E00C8EFC9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA950DE2B68322E00C8EFC9 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BEA950C82B682E7700C8EFC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEA950CA2B682E7900C8EFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA950CD2B682E7900C8EFC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEA950D42B682EAE00C8EFC9 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		BEA950D72B682EDE00C8EFC9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BEA950DA2B682F5600C8EFC9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BEA950DC2B68304500C8EFC9 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		BEA950DE2B68322E00C8EFC9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		BEA950C52B682E7700C8EFC9 /* VideoBackgroundApp */ = {
 			isa = PBXGroup;
 			children = (
+				BEA950D92B682F4700C8EFC9 /* View */,
+				BEA950D62B682ED000C8EFC9 /* Model */,
+				BEA950D42B682EAE00C8EFC9 /* video.mp4 */,
 				BEA950C62B682E7700C8EFC9 /* VideoBackgroundAppApp.swift */,
 				BEA950C82B682E7700C8EFC9 /* ContentView.swift */,
 				BEA950CA2B682E7900C8EFC9 /* Assets.xcassets */,
@@ -65,6 +78,24 @@
 				BEA950CD2B682E7900C8EFC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEA950D62B682ED000C8EFC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEA950D72B682EDE00C8EFC9 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEA950D92B682F4700C8EFC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEA950DA2B682F5600C8EFC9 /* CardView.swift */,
+				BEA950DC2B68304500C8EFC9 /* PlayerView.swift */,
+				BEA950DE2B68322E00C8EFC9 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA950D52B682EAE00C8EFC9 /* video.mp4 in Resources */,
 				BEA950CE2B682E7900C8EFC9 /* Preview Assets.xcassets in Resources */,
 				BEA950CB2B682E7900C8EFC9 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA950DF2B68322E00C8EFC9 /* LoginView.swift in Sources */,
 				BEA950C92B682E7700C8EFC9 /* ContentView.swift in Sources */,
+				BEA950D82B682EDE00C8EFC9 /* Card.swift in Sources */,
+				BEA950DB2B682F5600C8EFC9 /* CardView.swift in Sources */,
+				BEA950DD2B68304500C8EFC9 /* PlayerView.swift in Sources */,
 				BEA950C72B682E7700C8EFC9 /* VideoBackgroundAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
