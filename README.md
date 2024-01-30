@@ -28,5 +28,5 @@ This SwiftUI app demonstrates how to implement a looping video background in a m
 Run the app in Xcode using an iOS simulator or physical device. Explore the various views and see the seamless video loop in action.
 
 ## Acknowledgments
-SwiftUI Framework
-AVKit and AVFoundation
+- SwiftUI Framework
+- AVKit and AVFoundation
